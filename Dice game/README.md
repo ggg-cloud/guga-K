@@ -5,3 +5,5 @@ To play, you need to roll the dice. If the dice shows a 6, your current score wi
 However, be careful! If you decide not to hold your score and you roll a 1, your current score will be lost, and it will be the next player's turn. Rolling a 1 means you lose your current score.
 
 On the other hand, if you choose to hold your score, it will be the next player's turn, but your current score will be added to your overall score.
+
+if you reach 50 points you win
