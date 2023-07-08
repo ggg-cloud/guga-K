@@ -10,6 +10,12 @@ const diceEl = document.querySelector('.dice')
 const btn_new = document.querySelector('.btn--new')
 const btn_roll = document.querySelector('.btn--roll')
 const btn_hold = document.querySelector('.btn--hold')
+const main = document.querySelector('.window')
+const overlay = document.querySelector('.overlay')
+const btn_close_window = document.querySelector('.close-window')
+const btn_open_window = document.querySelector('.btn--help')
+
+
 
 
 // starting settings
@@ -45,6 +51,18 @@ const swich_player = function () {
     }
 }
 
+const close_window = function () {
+    main.classList.add('hidden')
+    overlay.classList.add('hidden')
+}
+
+const open_window = function () {
+    main.classList.remove('hidden')
+    overlay.classList.remove('hidden')
+}
+
+btn_close_window.addEventListener('click', close_window)
+overlay.addEventListener('click', close_window)
 // rolling dice
 btn_roll.addEventListener('click', function () {
     if (playing) {
@@ -86,6 +104,8 @@ btn_hold.addEventListener('click', function () {
 })
 
 btn_new.addEventListener('click', restart)
+
+btn_open_window.addEventListener('click', open_window)
 
 
 
