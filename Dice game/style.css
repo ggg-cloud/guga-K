@@ -12,58 +12,58 @@ html {
     box-sizing: border-box;
 }
 
-@media only screen and (min-width: 280px) and (max-width: 374px) {
+@media only screen and (min-width: 280px) and (max-width: 375px) {
     html {
-        font-size: 20%;
+        font-size: 1vw;
     }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 393px) {
+@media only screen and (min-width: 376px) and (max-width: 393px) {
     html {
-        font-size: 27%;
+        font-size: 1vw;
     }
 }
 
 @media only screen and (min-width: 394px) and (max-width: 414px) {
     html {
-        font-size: 30%;
+        font-size: 1vw;
     }
 }
 
 @media only screen and (min-width: 415px) and (max-width: 430px) {
     html {
-        font-size: 31%;
+        font-size: 1vw;
     }
 }
 
 
-@media only screen and (min-width: 431px) and (max-width: 768px) {
+@media only screen and (min-width: 431px) {
     html {
-        font-size: 45%;
+        font-size: 1vw;
     }
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) {
     html {
-        font-size: 60%;
+        font-size: 0.8vw;
     }
 }
 
-@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+@media only screen and (min-width: 1024px) {
     html {
-        font-size: 70%;
+        font-size: 0.8vw;
     }
 }
 
-@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+@media only screen and (min-width: 1440px) and (max-width: 1920px) {
     html {
-        font-size: 80%;
+        font-size: 0.6vw;
     }
 }
 
 @media only screen and (min-width: 1921px) and (max-width: 2560px) {
     html {
-        font-size: 120%;
+        font-size: 0.7vw;
     }
 }
 
