@@ -36,6 +36,8 @@ const restart = function () {
     player0El.classList.remove('player--winner')
     player1El.classList.remove('player--winner')
     player0El.classList.add('player--active')
+
+    btn_open_window.classList.remove('hidden')
 }
 
 restart()
@@ -48,6 +50,7 @@ const swich_player = function () {
         active_player = active_player === 0 ? 1 : 0
         player0El.classList.toggle('player--active')
         player1El.classList.toggle('player--active')
+        btn_open_window.classList.add('hidden')
     }
 }
 
@@ -78,6 +81,7 @@ btn_roll.addEventListener('click', function () {
         } else {
             swich_player()
         }
+        btn_open_window.classList.add('hidden')
     }
 })
 
@@ -99,6 +103,7 @@ btn_hold.addEventListener('click', function () {
         } else {
             swich_player()
         }
+        btn_open_window.classList.add('hidden')
 
     }
 })
