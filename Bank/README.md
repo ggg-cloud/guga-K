@@ -1,0 +1,1 @@
+This game is about transfers. The first account's name is 'js' with the password '1111', and the second account's name is 'jd' with the password '2222'. You can transfer money between accounts and take loans, which will take some time to be processed. Additionally, there is a timer that will log you out after 5 minutes. All your transfers and account balances are displayed.
